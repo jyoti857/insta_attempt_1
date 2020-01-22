@@ -23,16 +23,20 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Splash from './src/screens/splash';
 
 
 
 const App = () => {
   return(
-    <StatusBar barStyle  = 'dark-content'>
-      <ScrollView contentContainerStyle = {{margin: 40}}>
-        <Text>Create React app</Text>
-      </ScrollView>
-    </StatusBar>
+    // <StatusBar barStyle  = 'dark-content'>
+    //   <ScrollView>
+    //     <Splash />
+    //   </ScrollView>
+    // </StatusBar>
+    <View>
+      <Splash />
+    </View>
   )
 }
 
