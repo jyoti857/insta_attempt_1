@@ -25,6 +25,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import Splash from './src/screens/splash';
 import Login from './src/screens/login';
+import Feeds from './src/screens/feeds';
 
 
 
@@ -37,7 +38,8 @@ const App = () => {
     // </StatusBar>
     <View>
       {/* <Splash /> */}
-      <Login />
+      {/* <Login /> */}
+      <Feeds />
     </View>
   )
 }
