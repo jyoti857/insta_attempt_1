@@ -20,6 +20,10 @@
 		2DCD954D1E0B4F2C00145EB5 /* insta_attempt_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* insta_attempt_1Tests.m */; };
 		485DBC4CC0C013F426677764 /* libPods-insta_attempt_1-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7F2A42D7373076190C274D /* libPods-insta_attempt_1-tvOS.a */; };
 		75CA37D97D8F81D70D08CF83 /* libPods-insta_attempt_1-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 648817F7535E0F939215EC88 /* libPods-insta_attempt_1-tvOSTests.a */; };
+		7C463A1BC5A344E58F569411 /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8988462BD066428496EC87FA /* DancingScript-Bold.ttf */; };
+		EB05790803554602AD3B3EBD /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB303A1B20E341D898B28F98 /* DancingScript-Medium.ttf */; };
+		7D9D5A45C5594D619B350FEC /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F539BAD4E414394AE6CE728 /* DancingScript-Regular.ttf */; };
+		7C9811003F2D4006AEA1A95D /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C29C0D6A61648129F1409AD /* DancingScript-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F03CF2E77CF86BC18061BF7E /* Pods-insta_attempt_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1.release.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1/Pods-insta_attempt_1.release.xcconfig"; sourceTree = "<group>"; };
+		8988462BD066428496EC87FA /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; name = "DancingScript-Bold.ttf"; path = "../assets/fonts/DancingScript-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AB303A1B20E341D898B28F98 /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; name = "DancingScript-Medium.ttf"; path = "../assets/fonts/DancingScript-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8F539BAD4E414394AE6CE728 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; name = "DancingScript-Regular.ttf"; path = "../assets/fonts/DancingScript-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C29C0D6A61648129F1409AD /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; name = "DancingScript-SemiBold.ttf"; path = "../assets/fonts/DancingScript-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +173,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BCC894B2105CDDD9DCDBCC91 /* Pods */,
+				88D2FAFCFA914D70AA97A835 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +206,18 @@
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		88D2FAFCFA914D70AA97A835 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				8988462BD066428496EC87FA /* DancingScript-Bold.ttf */,
+				AB303A1B20E341D898B28F98 /* DancingScript-Medium.ttf */,
+				8F539BAD4E414394AE6CE728 /* DancingScript-Regular.ttf */,
+				5C29C0D6A61648129F1409AD /* DancingScript-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -285,7 +306,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -338,6 +359,10 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				7C463A1BC5A344E58F569411 /* DancingScript-Bold.ttf in Resources */,
+				EB05790803554602AD3B3EBD /* DancingScript-Medium.ttf in Resources */,
+				7D9D5A45C5594D619B350FEC /* DancingScript-Regular.ttf in Resources */,
+				7C9811003F2D4006AEA1A95D /* DancingScript-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

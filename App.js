@@ -24,6 +24,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import Splash from './src/screens/splash';
+import Login from './src/screens/login';
 
 
 
@@ -35,7 +36,8 @@ const App = () => {
     //   </ScrollView>
     // </StatusBar>
     <View>
-      <Splash />
+      {/* <Splash /> */}
+      <Login />
     </View>
   )
 }
