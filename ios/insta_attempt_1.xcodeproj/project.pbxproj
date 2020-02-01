@@ -21,9 +21,9 @@
 		485DBC4CC0C013F426677764 /* libPods-insta_attempt_1-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7F2A42D7373076190C274D /* libPods-insta_attempt_1-tvOS.a */; };
 		75CA37D97D8F81D70D08CF83 /* libPods-insta_attempt_1-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 648817F7535E0F939215EC88 /* libPods-insta_attempt_1-tvOSTests.a */; };
 		7C463A1BC5A344E58F569411 /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8988462BD066428496EC87FA /* DancingScript-Bold.ttf */; };
-		EB05790803554602AD3B3EBD /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB303A1B20E341D898B28F98 /* DancingScript-Medium.ttf */; };
-		7D9D5A45C5594D619B350FEC /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F539BAD4E414394AE6CE728 /* DancingScript-Regular.ttf */; };
 		7C9811003F2D4006AEA1A95D /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C29C0D6A61648129F1409AD /* DancingScript-SemiBold.ttf */; };
+		7D9D5A45C5594D619B350FEC /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F539BAD4E414394AE6CE728 /* DancingScript-Regular.ttf */; };
+		EB05790803554602AD3B3EBD /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB303A1B20E341D898B28F98 /* DancingScript-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,20 +61,20 @@
 		2D75CA3AA0C297E5A9932089 /* Pods-insta_attempt_1-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1-tvOSTests/Pods-insta_attempt_1-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E1079EF9DD16352EDD62127 /* Pods-insta_attempt_1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1Tests.release.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1Tests/Pods-insta_attempt_1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E13CF3479E1D0B259E8D76A /* Pods-insta_attempt_1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1Tests.debug.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1Tests/Pods-insta_attempt_1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C29C0D6A61648129F1409AD /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-SemiBold.ttf"; path = "../assets/fonts/DancingScript-SemiBold.ttf"; sourceTree = "<group>"; };
 		5CAF9D03073DFCF0AD82794E /* Pods-insta_attempt_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1.debug.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1/Pods-insta_attempt_1.debug.xcconfig"; sourceTree = "<group>"; };
 		648817F7535E0F939215EC88 /* libPods-insta_attempt_1-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-insta_attempt_1-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A442D51124CACE6C64583B /* libPods-insta_attempt_1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-insta_attempt_1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		811BFBC12D3289B9883BCC74 /* Pods-insta_attempt_1-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1-tvOSTests/Pods-insta_attempt_1-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		8395B1CE0BD601770D30B119 /* Pods-insta_attempt_1-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1-tvOS.release.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1-tvOS/Pods-insta_attempt_1-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		8988462BD066428496EC87FA /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-Bold.ttf"; path = "../assets/fonts/DancingScript-Bold.ttf"; sourceTree = "<group>"; };
+		8F539BAD4E414394AE6CE728 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-Regular.ttf"; path = "../assets/fonts/DancingScript-Regular.ttf"; sourceTree = "<group>"; };
+		AB303A1B20E341D898B28F98 /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-Medium.ttf"; path = "../assets/fonts/DancingScript-Medium.ttf"; sourceTree = "<group>"; };
 		AB7F2A42D7373076190C274D /* libPods-insta_attempt_1-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-insta_attempt_1-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEEB9FC3B2A0E42C8DA9719 /* libPods-insta_attempt_1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-insta_attempt_1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F03CF2E77CF86BC18061BF7E /* Pods-insta_attempt_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1.release.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1/Pods-insta_attempt_1.release.xcconfig"; sourceTree = "<group>"; };
-		8988462BD066428496EC87FA /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; name = "DancingScript-Bold.ttf"; path = "../assets/fonts/DancingScript-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AB303A1B20E341D898B28F98 /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; name = "DancingScript-Medium.ttf"; path = "../assets/fonts/DancingScript-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8F539BAD4E414394AE6CE728 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; name = "DancingScript-Regular.ttf"; path = "../assets/fonts/DancingScript-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5C29C0D6A61648129F1409AD /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; name = "DancingScript-SemiBold.ttf"; path = "../assets/fonts/DancingScript-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +191,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		88D2FAFCFA914D70AA97A835 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8988462BD066428496EC87FA /* DancingScript-Bold.ttf */,
+				AB303A1B20E341D898B28F98 /* DancingScript-Medium.ttf */,
+				8F539BAD4E414394AE6CE728 /* DancingScript-Regular.ttf */,
+				5C29C0D6A61648129F1409AD /* DancingScript-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		BCC894B2105CDDD9DCDBCC91 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,18 +218,6 @@
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		88D2FAFCFA914D70AA97A835 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				8988462BD066428496EC87FA /* DancingScript-Bold.ttf */,
-				AB303A1B20E341D898B28F98 /* DancingScript-Medium.ttf */,
-				8F539BAD4E414394AE6CE728 /* DancingScript-Regular.ttf */,
-				5C29C0D6A61648129F1409AD /* DancingScript-SemiBold.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -251,6 +251,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				5F02BA74ADFDF3DE68DBFD11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -433,6 +434,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		5F02BA74ADFDF3DE68DBFD11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-insta_attempt_1/Pods-insta_attempt_1-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-insta_attempt_1/Pods-insta_attempt_1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		9BABE13BF1CFA92577B0651D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

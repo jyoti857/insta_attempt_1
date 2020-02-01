@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
-import {View, Text, Button, TextInput, StyleSheet} from 'react-native';
+import {View, Text, TextInput, StyleSheet} from 'react-native';
 import {fonts} from '../../../fonts';
+import {Button} from 'react-native-paper';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const Login = props => {
     const [username, setUsername]  = useState('');
@@ -41,13 +43,16 @@ const Login = props => {
 								placeholder = 'Password'
 								placeholderTextColor = 'grey'
             />
-						<Button title = 'Login' style = {{
+						{/* <Button title = 'Login' style = {{
 							// height: 20, 
 							// width: 200,
 							color: 'green',
 							// borderColor: 'green',
 							// borderWidth: 2
-						}} />
+						}} /> */}
+
+				<Button>Login</Button>
+				<Icon name='heart-o' size = {30} color  = '#000' />
         </View>
 			</View>
     )
