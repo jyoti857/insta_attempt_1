@@ -5,12 +5,16 @@ import Login from '../screens/login';
 import Feeds from '../screens/feeds';
 import { View } from 'react-native';
 import { setNavigator } from '../navigationRef';
+import Comments from '../screens/comments';
 // import { createBottomTabNavigator } from 'react-navigation-tabs';
 const appNavigator = createStackNavigator({
     Login: {screen : Login},
     Feeds:{
         screen: Feeds,
     },
+    Comments: {
+        screen : Comments
+    }
 });
 
 
