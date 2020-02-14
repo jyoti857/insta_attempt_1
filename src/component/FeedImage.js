@@ -40,7 +40,9 @@ const FeedImage = props => {
                         style = {{marginTop: 20, marginLeft: 110, position: "absolute"}}
                     />
                 </View>
-                <Text style = {{fontSize: 20, margin: 10}}>{like ? `${++count} like` : ''}</Text>
+                {like ? <Text style = {{fontSize: 20, margin: 10}}>{like ? `${++count} like` : ''}</Text> : []}
+                {props.comments ? <Text>{props.comments}</Text>:[]}
+            
 
             </ScrollView>
         </View>

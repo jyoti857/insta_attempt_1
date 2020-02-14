@@ -7,6 +7,7 @@ import { createPostAction } from '../../actions/createPostAction';
 import { fetchPostAction } from '../../actions/fetchPostAction';
 import { clearPostAction } from '../../actions/clearPostAction';
 import postReducer from '../../reducers/postReducer';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 class Feeds extends React.Component{
     zoe1 = require('../../../assets/zoe1.jpg');
@@ -20,12 +21,22 @@ class Feeds extends React.Component{
         console.log("from feeds index --->", this.props.posts);
         this.props.posts.map(post => console.log(post[0].image))
     }
+
+    static navigationOptions = {
+        headerLeft: <Icon name = 'camera' size={30} style={{marginLeft:10}}  />,
+        title: "Instagram",
+        headerRight: <Icon  name = 'paper-plane-o' size = {30} style={{marginRight:10}} />
+    }
     
     render(){
         return(
             <View 
                 // style = {{flex:2}}
             >
+                <View style = {{flexDirection : 'row', justifyContent: "space-between", margin: 10}}>
+                        <Text style={{fontSize: 20, fontWeight: '400'}}>Stories</Text>
+                        <Text style = {{fontSize: 20, fontWeight: '400'}}>Watch All</Text>
+                    </View>
                 <View 
                     style = {styles.container}
                 >
@@ -33,6 +44,7 @@ class Feeds extends React.Component{
                         <Button onPress = {this.props.clearPosts}>Clear posts</Button>
                         <Button onPress = {this.props.fetchPosts}>Fetch posts</Button>
                     </View>
+                    
                     <ScrollView 
                         horizontal = {true}
                         showsHorizontalScrollIndicator = {false}
