@@ -6,8 +6,10 @@ import Feeds from '../screens/feeds';
 import { View } from 'react-native';
 import { setNavigator } from '../navigationRef';
 import Comments from '../screens/comments';
+import RFScreen from '../screens/RFScreen';
 // import { createBottomTabNavigator } from 'react-navigation-tabs';
 const appNavigator = createStackNavigator({
+    RF:{screen: RFScreen},
     Login: {screen : Login},
     Feeds:{
         screen: Feeds,

@@ -4,6 +4,7 @@ import {Button, Avatar} from 'react-native-paper';
 import CustomTextInput from '../../component/CustomTextInput';
 import { TouchableOpacity, ScrollView } from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import {reduxForm, Field} from 'redux-form';
 
 // class Comments extends React.Component{
 
@@ -33,7 +34,8 @@ class Comments extends React.Component{
             commentsArr : [],
             commentLike: false,
             postTime : 0,
-            diff: 0,
+						diff: 0,
+						rValues:{},
         };
         // this.fieldOne.current.focus();
     }
@@ -69,10 +71,30 @@ class Comments extends React.Component{
     }
     componentDidUpdate(){
         setTimeout(() => this.displayTimePost(), 2000);
-    }
+		}
+		// for redux form 
+		submit = values =>{
+			console.log("Submitting values ----> ", values);
+			this.setState({rValues:values});
+		}
     render(){
         return(
-            <View>
+            <View onSubmit = {this.props.handleSubmit(this.submit)}>
+							<TextInput style = {{borderColor: 'black',
+									borderWidth: 1,
+									height: 37,
+									width: 250
+							}}/>
+							<Field name = 'FirstnameinComment' component  = {TextInput}/>
+							<TouchableOpacity onSubmit = {this.props.handleSubmit(this.submit)}><Text
+										style = {{backgroundColor: 'blue',
+										color: 'white',
+										height: 30,
+										lineHeight: 30,
+										marginTop: 10,
+										textAlign: 'center',
+										width: 250}}
+								> Submit</Text></TouchableOpacity>
                 <ScrollView contentContainerStyle = {{zIndex: -1}}>
                     {this.state.commentsArr.map(comment=>{
                         return (
@@ -125,4 +147,8 @@ class Comments extends React.Component{
     }
 }
 
-export default Comments;
+// export default Comments;
+
+export default reduxForm({
+	form: "dksl"
+})(Comments);

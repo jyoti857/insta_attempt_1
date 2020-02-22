@@ -61,15 +61,15 @@
 		2D75CA3AA0C297E5A9932089 /* Pods-insta_attempt_1-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1-tvOSTests/Pods-insta_attempt_1-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E1079EF9DD16352EDD62127 /* Pods-insta_attempt_1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1Tests.release.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1Tests/Pods-insta_attempt_1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E13CF3479E1D0B259E8D76A /* Pods-insta_attempt_1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1Tests.debug.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1Tests/Pods-insta_attempt_1Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5C29C0D6A61648129F1409AD /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-SemiBold.ttf"; path = "../assets/fonts/DancingScript-SemiBold.ttf"; sourceTree = "<group>"; };
+		5C29C0D6A61648129F1409AD /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-SemiBold.ttf"; path = "../assets/fonts/DancingScript-SemiBold.ttf"; sourceTree = "<group>"; };
 		5CAF9D03073DFCF0AD82794E /* Pods-insta_attempt_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1.debug.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1/Pods-insta_attempt_1.debug.xcconfig"; sourceTree = "<group>"; };
 		648817F7535E0F939215EC88 /* libPods-insta_attempt_1-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-insta_attempt_1-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A442D51124CACE6C64583B /* libPods-insta_attempt_1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-insta_attempt_1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		811BFBC12D3289B9883BCC74 /* Pods-insta_attempt_1-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1-tvOSTests/Pods-insta_attempt_1-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		8395B1CE0BD601770D30B119 /* Pods-insta_attempt_1-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta_attempt_1-tvOS.release.xcconfig"; path = "Target Support Files/Pods-insta_attempt_1-tvOS/Pods-insta_attempt_1-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		8988462BD066428496EC87FA /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-Bold.ttf"; path = "../assets/fonts/DancingScript-Bold.ttf"; sourceTree = "<group>"; };
-		8F539BAD4E414394AE6CE728 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-Regular.ttf"; path = "../assets/fonts/DancingScript-Regular.ttf"; sourceTree = "<group>"; };
-		AB303A1B20E341D898B28F98 /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-Medium.ttf"; path = "../assets/fonts/DancingScript-Medium.ttf"; sourceTree = "<group>"; };
+		8988462BD066428496EC87FA /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-Bold.ttf"; path = "../assets/fonts/DancingScript-Bold.ttf"; sourceTree = "<group>"; };
+		8F539BAD4E414394AE6CE728 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-Regular.ttf"; path = "../assets/fonts/DancingScript-Regular.ttf"; sourceTree = "<group>"; };
+		AB303A1B20E341D898B28F98 /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DancingScript-Medium.ttf"; path = "../assets/fonts/DancingScript-Medium.ttf"; sourceTree = "<group>"; };
 		AB7F2A42D7373076190C274D /* libPods-insta_attempt_1-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-insta_attempt_1-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEEB9FC3B2A0E42C8DA9719 /* libPods-insta_attempt_1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-insta_attempt_1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -200,7 +200,6 @@
 				5C29C0D6A61648129F1409AD /* DancingScript-SemiBold.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		BCC894B2105CDDD9DCDBCC91 /* Pods */ = {
@@ -215,7 +214,6 @@
 				4E13CF3479E1D0B259E8D76A /* Pods-insta_attempt_1Tests.debug.xcconfig */,
 				2E1079EF9DD16352EDD62127 /* Pods-insta_attempt_1Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -331,6 +329,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
