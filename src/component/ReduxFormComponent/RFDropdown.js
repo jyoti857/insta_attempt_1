@@ -7,7 +7,8 @@ class RFDropdown extends React.Component{
     onChangeHandler = event => {
         const {input, onChangeTrigger} = this.props;
         input.onChange(event);
-        if(onChangeTrigger) onChangeTrigger();
+        // if(onChangeTrigger) onChangeTrigger();
+        console.log("after as d sd ---> ", input.value);
     }
     
     render(){
@@ -20,7 +21,9 @@ class RFDropdown extends React.Component{
             <MaterialDropdown 
                 label = {label || "dropJY"}
                 data = {data}
-
+                onChangeText = {this.onChangeHandler}
+                value  = {input.value}
+                error = {hasError ? `*${label} is required` : null}
             />
         )
     }

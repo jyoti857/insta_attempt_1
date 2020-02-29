@@ -15,6 +15,7 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+// import {Provider as PaperProvider} from 'react-native-paper';
 
 import Splash from './src/screens/splash';
 import Login from './src/screens/login';
@@ -27,6 +28,8 @@ import database from '@react-native-firebase/database';
 import AppNavigator from './src/routes';
 import {Provider} from 'react-redux';
 import store from './store';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { paperTheme } from './src/theme/paperTheme';
 
 
 
@@ -49,20 +52,37 @@ const App = () => {
     // console.log("app database --->", database.ref);
 
   })
+//   return(
+//     // <StatusBar barStyle  = 'dark-content'>
+//     //   <ScrollView>
+//     //     <Splash />
+//     //   </ScrollView>
+//     // </StatusBar>
+//     <Provider store = {store}>
+//       <View style = {{flex:1}}>
+//         {/* <Splash /> */}
+//         {/* <Login /> */}
+//         <AppNavigator />
+//         {/* <Feeds /> */}
+//       </View>
+//     </Provider>
+//   )
+// }
+
+
   return(
-    // <StatusBar barStyle  = 'dark-content'>
-    //   <ScrollView>
-    //     <Splash />
-    //   </ScrollView>
-    // </StatusBar>
-    <Provider store = {store}>
-      <View style = {{flex:1}}>
-        {/* <Splash /> */}
-        {/* <Login /> */}
-        <AppNavigator />
-        {/* <Feeds /> */}
-      </View>
-    </Provider>
+    <SafeAreaProvider>
+      {/* <PaperProvider theme ={paperTheme}> */}
+      <Provider store = {store}>
+       <View style = {{flex:1}}>
+         {/* <Splash /> */}
+         {/* <Login /> */}
+         <AppNavigator />
+         {/* <Feeds /> */}
+       </View>
+     </Provider>
+      {/* </PaperProvider> */}
+    </SafeAreaProvider>
   )
 }
 
