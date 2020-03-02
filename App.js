@@ -15,7 +15,7 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-// import {Provider as PaperProvider} from 'react-native-paper';
+import {Provider as PaperProvider} from 'react-native-paper';
 
 import Splash from './src/screens/splash';
 import Login from './src/screens/login';
@@ -72,7 +72,7 @@ const App = () => {
 
   return(
     <SafeAreaProvider>
-      {/* <PaperProvider theme ={paperTheme}> */}
+      <PaperProvider theme ={paperTheme}>
       <Provider store = {store}>
        <View style = {{flex:1}}>
          {/* <Splash /> */}
@@ -81,7 +81,7 @@ const App = () => {
          {/* <Feeds /> */}
        </View>
      </Provider>
-      {/* </PaperProvider> */}
+      </PaperProvider>
     </SafeAreaProvider>
   )
 }
